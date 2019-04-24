@@ -7,11 +7,55 @@ output:
     yolo: false
 ---
 
-<!--
+layout: true
+class: center, top
+background-image: url("img/background_home.png")
 
-setwd("~/Desktop/talk-frb-20190506/")
-rmarkdown::render(input = "index.rmd", output_file = "index.html")
+---
 
--->
+.home-content[
 
-xxx
+  .event[
+    Le CESAB à la FRB
+  ]
+  .main-talk[
+    C'est quoi un data scientist ?
+  ]
+  .sub-talk[
+
+  ]
+  .speaker[
+    Nicolas Casajus
+  ]
+  .function[
+    Chargé de mission Eco-informaticien/Data scientist
+  ]
+  .date[
+    Paris &#8212; Lundi 06 mai 2019
+  ]
+]
+
+
+---
+
+name: slide
+layout: true
+class: left, top, slide
+background-image: url("img/background_slides.png")
+
+---
+
+### Slide title
+
+.slide-content[
+
+  Slide content
+
+]
+
+---
+
+template: slide
+
+
+### Titre de la page
