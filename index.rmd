@@ -1,4 +1,5 @@
 ---
+title: index.html
 output:
   xaringan::moon_reader:
     css: ["default", "default-fonts", "css/custom.css"]
@@ -12,3 +13,5 @@ setwd("~/Desktop/talk-frb-20190506/")
 rmarkdown::render(input = "index.rmd", output_file = "index.html")
 
 -->
+
+xxx

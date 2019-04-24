@@ -1,0 +1,6 @@
+
+
+/* Slide number removal */
+.title-slide, .remark-slide-number {
+  display: none;
+}
