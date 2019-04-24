@@ -45,17 +45,142 @@ background-image: url("img/background_slides.png")
 
 ---
 
-### Slide title
+### Data science en écologie
 
 .slide-content[
 
-  Slide content
+  ```{r echo=FALSE, out.width="65%", fig.align="center"}
+  knitr::include_graphics("img/venn-1.png")
+  ```
 
 ]
 
 ---
 
-template: slide
+name: slide
+layout: true
+class: left, top, slide
+background-image: url("img/background_slides.png")
+
+---
+
+### Data science en écologie
+
+.slide-content[
+
+  ```{r echo=FALSE, out.width="65%", fig.align="center"}
+  knitr::include_graphics("img/venn-2.png")
+  ```
+
+]
+
+---
+
+name: slide
+layout: true
+class: left, top, slide
+background-image: url("img/background_slides.png")
+
+---
+
+### Data science en écologie
+
+.slide-content[
+
+  ```{r echo=FALSE, out.width="65%", fig.align="center"}
+  knitr::include_graphics("img/venn-3.png")
+  ```
+
+]
+
+---
+
+name: slide
+layout: true
+class: left, top, slide
+background-image: url("img/background_slides.png")
+
+---
+
+### Data science en écologie
+
+.slide-content[
+
+  ```{r echo=FALSE, out.width="65%", fig.align="center"}
+  knitr::include_graphics("img/venn-4.png")
+  ```
+
+]
+
+---
+
+name: slide
+layout: true
+class: left, top, slide
+background-image: url("img/background_slides.png")
+
+---
+
+### Data science en écologie
+
+.slide-content[
+
+  ```{r echo=FALSE, out.width="65%", fig.align="center"}
+  knitr::include_graphics("img/venn-5.png")
+  ```
+
+]
+
+---
+
+name: slide
+layout: true
+class: left, top, slide
+background-image: url("img/background_slides.png")
+
+---
+
+### Data science en écologie
+
+.slide-content[
+
+  ```{r echo=FALSE, out.width="65%", fig.align="center"}
+  knitr::include_graphics("img/venn-6.png")
+  ```
+
+]
+
+---
+
+name: slide
+layout: true
+class: left, top, slide
+background-image: url("img/background_slides.png")
+
+---
+
+### Data science en écologie
+
+.slide-content[
+
+  ```{r echo=FALSE, out.width="65%", fig.align="center"}
+  knitr::include_graphics("img/venn-7.png")
+  ```
+
+]
 
 
-### Titre de la page
+---
+
+name: slide
+layout: true
+class: left, top, slide
+background-image: url("img/background_slides.png")
+
+---
+
+### Quelle utilité pour les groupes de travail ?
+
+.slide-content[
+
+]
