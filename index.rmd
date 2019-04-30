@@ -7,6 +7,13 @@ output:
     yolo: false
 ---
 
+```{r echo=FALSE, eval=TRUE}
+  spplist <- read.csv("data/taxonomy.csv", header = TRUE, sep = ";")
+  spp     <- yaml::yaml.load_file("data/species.yml")
+  spplist <- spplist[spplist[ , "key"] == spp$species, ]
+```
+
+
 layout: true
 class: center, top
 background-image: url("img/background_home.png")
@@ -28,13 +35,54 @@ background-image: url("img/background_home.png")
     Nicolas Casajus
   ]
   .function[
-    Chargé de mission Eco-informaticien/Data scientist
+    Chargé de mission Eco-informaticien / Data scientist
   ]
   .date[
     Paris &#8212; Lundi 06 mai 2019
   ]
 ]
 
+---
+
+name: slide
+layout: true
+class: left, top, slide
+background-image: url("img/background_slides.png")
+
+---
+
+### Data scientist, la nouvelle star !
+
+.slide-content[
+
+  <br /><br />
+
+  ```{r echo=FALSE, out.width="65%", fig.align="center"}
+  knitr::include_graphics("img/interview.jpg")
+  ```
+
+]
+
+---
+
+name: slide
+layout: true
+class: left, top, slide
+background-image: url("img/background_slides.png")
+
+---
+
+### Data scientist, _what the hell is that?_
+
+.slide-content[
+
+  <br /><br />
+
+  ```{r echo=FALSE, out.width="65%", fig.align="center"}
+  knitr::include_graphics("img/what-the-hell.png")
+  ```
+
+]
 
 ---
 
@@ -179,7 +227,202 @@ background-image: url("img/background_slides.png")
 
 ---
 
-### Quelle utilité pour les groupes de travail ?
+### La recherche scientifique
+
+.slide-content[
+  ```{r echo=FALSE, out.width="90%", fig.align="center"}
+  knitr::include_graphics("img/research-1.png")
+  ```
+]
+
+
+---
+
+name: slide
+layout: true
+class: left, top, slide
+background-image: url("img/background_slides.png")
+
+---
+
+### La recherche scientifique
+
+.slide-content[
+  ```{r echo=FALSE, out.width="90%", fig.align="center"}
+  knitr::include_graphics("img/research-2.png")
+  ```
+]
+
+
+---
+
+name: slide
+layout: true
+class: left, top, slide
+background-image: url("img/background_slides.png")
+
+---
+
+### La recherche scientifique
+
+.slide-content[
+  ```{r echo=FALSE, out.width="90%", fig.align="center"}
+  knitr::include_graphics("img/research-3.png")
+  ```
+]
+
+
+---
+
+name: slide
+layout: true
+class: left, top, slide
+background-image: url("img/background_slides.png")
+
+---
+
+### La recherche scientifique
+
+.slide-content[
+  ```{r echo=FALSE, out.width="90%", fig.align="center"}
+  knitr::include_graphics("img/research-4.png")
+  ```
+]
+
+
+---
+
+name: slide
+layout: true
+class: left, top, slide
+background-image: url("img/background_slides.png")
+
+---
+
+### La recherche scientifique
+
+.slide-content[
+  ```{r echo=FALSE, out.width="90%", fig.align="center"}
+  knitr::include_graphics("img/research-5.png")
+  ```
+]
+
+
+---
+
+name: slide
+layout: true
+class: left, top, slide
+background-image: url("img/background_slides.png")
+
+---
+
+### La recherche scientifique
+
+.slide-content[
+  ```{r echo=FALSE, out.width="90%", fig.align="center"}
+  knitr::include_graphics("img/research-6.png")
+  ```
+]
+
+
+---
+
+name: slide
+layout: true
+class: left, top, slide
+background-image: url("img/background_slides.png")
+
+---
+
+### La recherche scientifique
+
+.slide-content[
+  ```{r echo=FALSE, out.width="90%", fig.align="center"}
+  knitr::include_graphics("img/research-7.png")
+  ```
+]
+
+
+---
+
+name: slide
+layout: true
+class: left, top, slide
+background-image: url("img/background_slides.png")
+
+---
+
+### Illustration avec un cas d'étude
+
+.slide-content[
+
+  #### Question scientifique
+
+  Quels seront les impacts potentiels futurs du changement climatique sur la répartition géographique du **`r spplist[1, "french"]`** (_`r spplist[1, "latin"]`_) ?
+
+  <br />
+
+  .pull-left[
+    ```{r echo=FALSE, out.width="100%", out.height="205px", fig.align="center"}
+    knitr::include_graphics("img/global-warming.jpg")
+    ```
+  ]
+
+  .pull-right[
+    ```{r echo=FALSE, out.width="100%", out.height="205px", fig.align="center"}
+    knitr::include_graphics(paste0("img/", spplist[1, "file"],".jpg"))
+    ```
+  ]
+]
+
+
+---
+
+name: slide
+layout: true
+class: left, top, slide
+background-image: url("img/background_slides.png")
+
+---
+
+### La recherche scientifique
+
+.slide-content[
+  ```{r echo=FALSE, out.width="90%", fig.align="center"}
+  knitr::include_graphics("img/research-7.png")
+  ```
+]
+
+
+---
+
+name: slide
+layout: true
+class: left, top, slide
+background-image: url("img/background_slides.png")
+
+---
+
+### Reproductibilité & automatisation
+
+.slide-content[
+  ```{r echo=FALSE, out.width="90%", fig.align="center"}
+  knitr::include_graphics("img/research-8.png")
+  ```
+]
+
+
+---
+
+name: slide
+layout: true
+class: left, top, slide
+background-image: url("img/background_slides.png")
+
+---
+
+### Notions fondamentales
 
 .slide-content[
 
