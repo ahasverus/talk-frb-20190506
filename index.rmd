@@ -197,7 +197,7 @@ background-image: url("img/background_slides.png")
 
   #### Question scientifique
 
-  Quels seront les impacts potentiels futurs du changement climatique sur la répartition géographique du **`r spplist[1, "french"]`** (_`r spplist[1, "latin"]`_) ?
+  Quels seront les impacts potentiels futurs du changement climatique sur la répartition géographique **`r paste(ifelse(spplist[1, "key"] == "musaraigne", "de la", "du"), spplist[1, "french"])`** (_`r spplist[1, "latin"]`_) ?
 
   <br />
 
@@ -329,7 +329,7 @@ background-image: url("img/background_slides.png")
 - Modèle de niche
 
 .parag[
-  Trouver la relation entre la répartition du `r spplist[1, "french"]` et le climat
+  Trouver la relation entre la répartition `r paste(ifelse(spplist[1, "key"] == "musaraigne", "de la", "du"), spplist[1, "french"])` et le climat
 
   (ex. groupes .em[FREE] et .em[GASPAR])
 ]
@@ -443,7 +443,7 @@ background-image: url("img/background_slides.png")
 ]
 
   ```{r echo=FALSE, out.width="90%", fig.align="center"}
-  knitr::include_graphics(paste0("img/map-", spplist[1, "file"], "-cur.png"))
+  knitr::include_graphics(paste0("img/map-", spplist[1, "file"], "-fut.png"))
   ```
 ]
 ]
