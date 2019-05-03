@@ -386,6 +386,57 @@ background-image: url("img/background_slides.png")
 
 ---
 
+### Illustration avec un cas d'étude
+
+.slide-content[
+
+  #### Acquisition des données
+
+
+  .pull-left[
+- Répartition de l'espèce
+
+    ```{r echo=FALSE, out.width="100%", out.height="65px", fig.align="left"}
+    knitr::include_graphics("img/IUCN.png")
+    ```
+  .url[
+    [https://www.iucnredlist.org](https://www.iucnredlist.org)
+  ]
+  ]
+
+  .pull-right[
+- Climat actuel
+
+    ```{r echo=FALSE, out.width="100%", out.height="65px", fig.align="left"}
+    knitr::include_graphics("img/WORLDCLIM.png")
+    ```
+  .url[
+    [https://www.worldclim.org](https://www.worldclim.org)
+  ]
+
+    <br />
+
+- Climat futur
+
+    ```{r echo=FALSE, out.width="100%", out.height="65px", fig.align="left"}
+    knitr::include_graphics("img/CMIP5.png")
+    ```
+  .url[
+    [https://cmip.llnl.gov/cmip5/](https://cmip.llnl.gov/cmip5/)
+  ]
+  ]
+]
+
+
+---
+
+name: slide
+layout: true
+class: left, top, slide
+background-image: url("img/background_slides.png")
+
+---
+
 ### La recherche scientifique
 
 .slide-content[
