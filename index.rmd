@@ -103,24 +103,6 @@ background-image: url("img/background_slides.png")
 
 ]
 
----
-
-name: slide
-layout: true
-class: left, top, slide
-background-image: url("img/background_slides.png")
-
----
-
-### Data science en écologie
-
-.slide-content[
-
-  ```{r echo=FALSE, out.width="65%", fig.align="center"}
-  knitr::include_graphics("img/venn-2.png")
-  ```
-
-]
 
 ---
 
@@ -140,42 +122,6 @@ background-image: url("img/background_slides.png")
   ```
 
 ]
-
----
-
-name: slide
-layout: true
-class: left, top, slide
-background-image: url("img/background_slides.png")
-
----
-
-### Data science en écologie
-
-.slide-content[
-
-  ```{r echo=FALSE, out.width="65%", fig.align="center"}
-  knitr::include_graphics("img/venn-4.png")
-  ```
-
-]
-
----
-
-name: slide
-layout: true
-class: left, top, slide
-background-image: url("img/background_slides.png")
-
----
-
-### Data science en écologie
-
-.slide-content[
-
-  ```{r echo=FALSE, out.width="65%", fig.align="center"}
-  knitr::include_graphics("img/venn-5.png")
-  ```
 
 ]
 
@@ -215,114 +161,6 @@ background-image: url("img/background_slides.png")
   knitr::include_graphics("img/venn-7.png")
   ```
 
-]
-
-
----
-
-name: slide
-layout: true
-class: left, top, slide
-background-image: url("img/background_slides.png")
-
----
-
-### La recherche scientifique
-
-.slide-content[
-  ```{r echo=FALSE, out.width="90%", fig.align="center"}
-  knitr::include_graphics("img/research-1.png")
-  ```
-]
-
-
----
-
-name: slide
-layout: true
-class: left, top, slide
-background-image: url("img/background_slides.png")
-
----
-
-### La recherche scientifique
-
-.slide-content[
-  ```{r echo=FALSE, out.width="90%", fig.align="center"}
-  knitr::include_graphics("img/research-2.png")
-  ```
-]
-
-
----
-
-name: slide
-layout: true
-class: left, top, slide
-background-image: url("img/background_slides.png")
-
----
-
-### La recherche scientifique
-
-.slide-content[
-  ```{r echo=FALSE, out.width="90%", fig.align="center"}
-  knitr::include_graphics("img/research-3.png")
-  ```
-]
-
-
----
-
-name: slide
-layout: true
-class: left, top, slide
-background-image: url("img/background_slides.png")
-
----
-
-### La recherche scientifique
-
-.slide-content[
-  ```{r echo=FALSE, out.width="90%", fig.align="center"}
-  knitr::include_graphics("img/research-4.png")
-  ```
-]
-
-
----
-
-name: slide
-layout: true
-class: left, top, slide
-background-image: url("img/background_slides.png")
-
----
-
-### La recherche scientifique
-
-.slide-content[
-  ```{r echo=FALSE, out.width="90%", fig.align="center"}
-  knitr::include_graphics("img/research-5.png")
-  ```
-]
-
-
----
-
-name: slide
-layout: true
-class: left, top, slide
-background-image: url("img/background_slides.png")
-
----
-
-### La recherche scientifique
-
-.slide-content[
-  ```{r echo=FALSE, out.width="90%", fig.align="center"}
-  knitr::include_graphics("img/research-6.png")
-  ```
 ]
 
 
@@ -529,8 +367,6 @@ background-image: url("img/background_slides.png")
 
 .parag[
   Projeter cette relation dans le futur sous un scénario de changement climatique
-
-  (ex. groupes .em[FREE] et .em[GASPAR])
 ]
 ]
 
@@ -544,30 +380,33 @@ background-image: url("img/background_slides.png")
 
 ---
 
-### La recherche scientifique
+### Illustration avec un cas d'étude
 
 .slide-content[
+
+  #### Visualisation & Interprétation (1)
+
+.pull-left[
+
+.center[
+  Observations
+]
+
   ```{r echo=FALSE, out.width="90%", fig.align="center"}
-  knitr::include_graphics("img/research-7.png")
+  knitr::include_graphics(paste0("img/map-", spplist[1, "file"],"-obs.png"))
   ```
 ]
 
+.pull-right[
 
----
+.center[
+  Modèle
+]
 
-name: slide
-layout: true
-class: left, top, slide
-background-image: url("img/background_slides.png")
-
----
-
-### Reproductibilité & automatisation
-
-.slide-content[
   ```{r echo=FALSE, out.width="90%", fig.align="center"}
-  knitr::include_graphics("img/research-8.png")
+  knitr::include_graphics(paste0("img/map-", spplist[1, "file"], "-cur.png"))
   ```
+]
 ]
 
 
@@ -580,8 +419,126 @@ background-image: url("img/background_slides.png")
 
 ---
 
-### Notions fondamentales
+### Illustration avec un cas d'étude
 
 .slide-content[
+
+  #### Visualisation & Interprétation (2)
+
+.pull-left[
+
+.center[
+  Actuel
+]
+
+  ```{r echo=FALSE, out.width="90%", fig.align="center"}
+  knitr::include_graphics(paste0("img/map-", spplist[1, "file"],"-cur.png"))
+  ```
+]
+
+.pull-right[
+
+.center[
+  2070
+]
+
+  ```{r echo=FALSE, out.width="90%", fig.align="center"}
+  knitr::include_graphics(paste0("img/map-", spplist[1, "file"], "-cur.png"))
+  ```
+]
+]
+
+---
+
+name: slide
+layout: true
+class: left, top, slide
+background-image: url("img/background_slides.png")
+
+---
+
+### Illustration avec un cas d'étude
+
+.slide-content[
+
+  #### Diffusion et déploiement
+
+  - Diffusion
+
+  > Cette présentation
+
+]
+
+---
+
+name: slide
+layout: true
+class: left, top, slide
+background-image: url("img/background_slides.png")
+
+---
+
+### Illustration avec un cas d'étude
+
+.slide-content[
+
+  #### Diffusion et déploiement
+
+  - Diffusion
+
+  > Cette présentation
+
+  <br />
+
+  - Déploiement
+
+  > Code (analyse + présentation) disponible :
+  >
+  > .url[[https://github.com/ahasverus/talk-frb-20190506](https://github.com/ahasverus/talk-frb-20190506)]
+
+  <br />
+
+  > Présentation en ligne :
+  >
+  > .url[[https://ahasverus.github.io/talk-frb-20190506](https://ahasverus.github.io/talk-frb-20190506)]
+
+]
+
+---
+
+name: slide
+layout: true
+class: left, top, slide
+background-image: url("img/background_slides.png")
+
+---
+
+### Illustration avec un cas d'étude
+
+.slide-content[
+
+  #### Diffusion et déploiement
+
+  - Diffusion
+
+  > Cette présentation
+
+  <br />
+
+  - Déploiement
+
+  > Code (analyse + présentation) disponible :
+  >
+  > .url[[https://github.com/ahasverus/talk-frb-20190506](https://github.com/ahasverus/talk-frb-20190506)]
+
+  <br />
+
+  > Présentation en ligne :
+  >
+  > .url[[https://ahasverus.github.io/talk-frb-20190506](https://ahasverus.github.io/talk-frb-20190506)]
+
+  <br />
+
+  - Reproductibilité + Versioning + Automatisation
 
 ]
