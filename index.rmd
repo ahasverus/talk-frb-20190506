@@ -424,7 +424,114 @@ background-image: url("img/background_slides.png")
   .url[
     [https://cmip.llnl.gov/cmip5/](https://cmip.llnl.gov/cmip5/)
   ]
+
+  .parag[
+Modèle climatique CNRM-CM5 (RCP85)
+Horizon 2070
   ]
+  ]
+]
+
+
+---
+
+name: slide
+layout: true
+class: left, top, slide
+background-image: url("img/background_slides.png")
+
+---
+
+### Illustration avec un cas d'étude
+
+.slide-content[
+
+  #### Préparation des données \[...\]
+
+.pull-left[
+
+.center[
+  `r spplist[1, "french"]`
+]
+
+  ```{r echo=FALSE, out.width="90%", fig.align="center"}
+  knitr::include_graphics(paste0("img/map-", spplist[1, "file"],"-obs.png"))
+  ```
+]
+
+.pull-right[
+
+.center[
+  Température actuelle
+]
+
+  ```{r echo=FALSE, out.width="90%", fig.align="center"}
+  knitr::include_graphics(paste0("img/map-temp-obs.png"))
+  ```
+]
+
+]
+
+
+---
+
+name: slide
+layout: true
+class: left, top, slide
+background-image: url("img/background_slides.png")
+
+---
+
+### Illustration avec un cas d'étude
+
+.slide-content[
+
+  #### Analyses des données
+
+- Modèle de niche
+
+.parag[
+  Trouver la relation entre la répartition du `r spplist[1, "french"]` et le climat
+
+  (ex. groupes .em[FREE] et .em[GASPAR])
+]
+
+]
+
+
+---
+
+name: slide
+layout: true
+class: left, top, slide
+background-image: url("img/background_slides.png")
+
+---
+
+### Illustration avec un cas d'étude
+
+.slide-content[
+
+  #### Analyses des données
+
+- Modèle de niche
+
+.parag[
+  Trouver la relation entre la répartition du `r spplist[1, "french"]` et le climat
+
+  (ex. groupes .em[FREE] et .em[GASPAR])
+]
+
+<br />
+
+
+- Projection dans le futur
+
+.parag[
+  Projeter cette relation dans le futur sous un scénario de changement climatique
+
+  (ex. groupes .em[FREE] et .em[GASPAR])
+]
 ]
 
 

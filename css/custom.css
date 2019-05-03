@@ -77,3 +77,11 @@ h1, h2, h3 {
 .url a:hover, .url a:focus {
   text-decoration: underline;
 }
+
+.parag {
+  font-size: 16px;
+}
+
+.em {
+  color: #2196a8;
+}
