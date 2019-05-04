@@ -69,12 +69,12 @@ h1, h2, h3 {
   margin: 0 100px 0 100px;
 }
 
-.url a {
+a {
   font-size: 14px;
   color: #2196a8;
 }
 
-.url a:hover, .url a:focus {
+a:hover, a:focus {
   text-decoration: underline;
 }
 
